@@ -1,0 +1,23 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Maven
+target/
+
+# Build output
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local configuration / secrets
+.env
+.env.*
+*.secret
+*.key
+
+# Local plugin configuration
+plugins/

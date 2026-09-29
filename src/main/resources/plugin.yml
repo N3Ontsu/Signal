@@ -1,0 +1,31 @@
+name: Signal
+version: '1.0.0'
+main: com.n3on19.signal.Signal
+author: N3Ontsu
+website: https://github.com/N3Ontsu/Signal
+api-version: '1.21'
+
+commands:
+  signal:
+    description: Manage Signal
+    usage: /signal
+    permission: signal.admin
+
+  msg:
+    description: Send a private message
+    usage: /msg <player> <message>
+    permission: signal.pm
+
+  r:
+    description: Reply to last private message.
+    usage: /r <message>
+    permission: signal.pm
+
+permissions:
+  signal.admin:
+    description: Allows managing Signal
+    default: op
+
+  signal.pm:
+    description: Allows using private messages
+    default: true

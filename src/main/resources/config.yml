@@ -1,0 +1,68 @@
+#######################
+### PLUGIN SETTINGS ###
+#######################
+
+plugin:
+  credits:
+    title: "Signal"
+    description: "A communication & moderation plugin"
+
+    developers:
+      - "N3Ontsu"
+
+    contributors: [SpectatorCZ]
+
+    libraries:
+      - "Paper"
+      - "Kotlin"
+      - "JDA"
+
+#####################
+### CHAT SETTINGS ###
+#####################
+
+chat:
+  format: "<#00EBFF><player></#00EBFF> » <#C7D8FF><message></#C7D8FF>"
+
+  join-leave-messages:
+    join: true
+    leave: true
+    join-format: "<#57F287>◆</#57F287> <#00EBFF><player></#00EBFF> <#ffffff>spawned in!</#ffffff> <#686869>Prepare…</#686869> <#FF69B4>vibes</#FF69B4> <#686869>AND</#686869> <#FF4444>possible violence.</#FF4444>"
+    leave-format: "<#ED4245>◆</#ED4245> <#00EBFF><player></#00EBFF> <#ffffff>has vanished.</#ffffff> <#686869>The vibes will never be the same.</#686869>"
+
+  private-message:
+    enabled: true
+    pm-format: "<#686869>[<#d027d9>PM</#d027d9>]</#686869> <#00EBFF><sender></#00EBFF> <#ffffff>»</#ffffff> <#C7D8FF><message></#C7D8FF>"
+
+  mentions:
+    enabled: true
+    sound: true
+    sound-type: entity_experience_orb_pickup
+    volume: 1.0
+    pitch: 1.5
+
+  cooldown:
+    enabled: false
+    seconds: 3
+
+  effects:
+    meow-mode: false
+
+########################
+### DISCORD SETTINGS ###
+########################
+
+discord:
+  enabled: true
+  format: "<#5865F2>[Discord]</#5865F2> <#00EBFF><player></#00EBFF> <white>»</white> <#C7D8FF><message></#C7D8FF>"
+
+#Bot token
+  bot:
+    token: "enter token here"
+
+#Channel ID
+  channel-id: "enter channel id here"
+
+#Webhook url
+  webhook:
+    url: "enter webhook url here"
